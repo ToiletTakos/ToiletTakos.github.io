@@ -10,3 +10,75 @@
     box-sizing:border-box;
 }
 
+body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, Sans-serif;
+}
+
+/* Header Styling*/
+header {
+    background-color: var(--primary-color);
+    display:flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding: 20px 35px;
+    z-index: 9999;
+    position: static;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    padding: 10px 25px;
+    color: var(--tertiary-color);
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: var(--secondary-color);
+    margin: 0 -34px;
+}
+
+header h1 a {
+    display:flex;
+    justify-content: flex-end;
+}
+
+header a {
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    text-shadow: none;
+}
+
+/*End of Header*/
+
+/* MEDIA QUERY for smaller desktop screens*/
+@media screen and (max-width: 980px){
+}
+
+/* MEDIA QUERY for Tablets and smaller*/
+@media screen and (max-width: 768px) {
+}
+
+/* MEDIA QUERY for mobile phones and smaller*/
+@media screen and (max-width: 575px) {
+}
