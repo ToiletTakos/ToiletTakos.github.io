@@ -31,14 +31,13 @@ header h1 {
     font-size: 36px;
     padding: 10px 25px;
     color: var(--tertiary-color);
-    text-shadow: 0 0 10px rgba(0,0,0,0.3);
     background-color: var(--secondary-color);
     margin: 0 -34px;
 }
 
 header h1 a {
     display:flex;
-    justify-content: flex-end;
+    margin: 0 -20px 0 30px;
 }
 
 header a {
@@ -61,6 +60,8 @@ header nav ul {
 header nav ul li a {
     padding: 10px 15px;
     font-size: 1.55vw;
+    border-bottom: solid 5px;
+    margin: 8px;
 }
 
 header nav ul li a:hover {
