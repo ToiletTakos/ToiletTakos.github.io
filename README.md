@@ -9,3 +9,7 @@ a footer with contact information phone number, email, twitter, and discord
 
 ## Steps
 1 Layout HTML
+2 designated the color variables
+3 stylized the header section
+4 stylized the hero image and section
+5 stylized the About me section

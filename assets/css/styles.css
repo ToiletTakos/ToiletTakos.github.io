@@ -69,7 +69,6 @@ header nav ul li a:hover {
     color: var(--tertiary-color);
     text-shadow: none;
 }
-
 /*End of Header*/
 
 /* Hero Section*/
@@ -97,6 +96,43 @@ header nav ul li a:hover {
     text-align: right;
     padding: 10px;
 }
+/* Hero End*/
+
+/* General purpose styles*/
+section {
+    padding: 30px
+}
+section h3 {
+    font-size: 48px;
+    color: var(--primary-color);
+    text-align: right;
+    margin: 50px auto 0 100px;
+    padding: 0 40px 0 0;
+    width: fit-content;
+}
+
+.flex-row{
+    display:flex;
+}
+
+/* End of general*/
+
+/* About me section*/
+.about p {
+    line-height: 1.5;
+    color: var(--tertiary-color);
+    width: 90%;
+    font-size: 20px;
+    padding: 0 50px;
+    border-left: 6px solid var(--tertiary-color);
+}
+/* end of about me*/
+
+/* Work/Projext section */
+/* end of work*/
+
+/* contact section*/
+/* end of contact*/
 
 /* MEDIA QUERY for smaller desktop screens*/
 @media screen and (max-width: 980px){
