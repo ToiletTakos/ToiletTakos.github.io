@@ -58,10 +58,10 @@ header nav ul {
 }
 
 header nav ul li a {
-    padding: 10px 15px;
-    font-size: 1.55vw;
+    padding: 10px 30px;
+    font-size: 1.0vw;
     border-bottom: solid 5px;
-    margin: 8px;
+    margin: 0 10px;
 }
 
 header nav ul li a:hover {
@@ -71,6 +71,32 @@ header nav ul li a:hover {
 }
 
 /*End of Header*/
+
+/* Hero Section*/
+.hero {
+    background-image: url("../images/hero-img.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0 -650px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 20px 100px;
+}
+
+.hero div {
+    background-color: var(--secondary-color);
+    width: 210px;
+    text-align: center;
+}
+
+.hero-name {
+    width: 100%;
+    text-align: right;
+    padding: 10px;
+}
 
 /* MEDIA QUERY for smaller desktop screens*/
 @media screen and (max-width: 980px){
