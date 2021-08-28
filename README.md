@@ -8,8 +8,8 @@ a section detailing some projects i have completed
 a footer with contact information phone number, email, twitter, and discord
 
 ## Steps
-1 Layout HTML
-2 designated the color variables
-3 stylized the header section
-4 stylized the hero image and section
-5 stylized the About me section
+* Layout HTML
+* designated the color variables
+* stylized the header section
+* stylized the hero image and section
+* stylized the About me section

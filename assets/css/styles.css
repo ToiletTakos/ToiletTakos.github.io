@@ -128,7 +128,40 @@ section h3 {
 }
 /* end of about me*/
 
-/* Work/Projext section */
+/* Work/Project section */
+.projects {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.example {
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    border: 6px solid var(--tertiary-color);
+    padding: 0 0 0 2%;
+}
+
+.project-title {
+    align-items: flex-end;
+    background-color: var(--primary-color);
+    text-align: left;
+    padding: 10px;
+    color: var(--secondary-color);
+    margin-bottom: 25%;
+}
+.set-up{
+    align-items: flex-end;
+}
+
+article {
+    display:flex;
+    flex: 1 45%;
+}
+article img {
+    width: 50%;
+    border: 6px solid var(--primary-color);
+}
 /* end of work*/
 
 /* contact section*/
