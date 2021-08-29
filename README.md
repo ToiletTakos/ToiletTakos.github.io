@@ -13,3 +13,5 @@ a footer with contact information phone number, email, twitter, and discord
 * stylized the header section
 * stylized the hero image and section
 * stylized the About me section
+* worked on styling the projects section
+* stylized the info footer section

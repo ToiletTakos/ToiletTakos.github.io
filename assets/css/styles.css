@@ -7,7 +7,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing:content-box;
 }
 
 body {
@@ -59,7 +59,7 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 30px;
-    font-size: 1.0vw;
+    font-size: 1.2vw;
     border-bottom: solid 5px;
     margin: 0 10px;
 }
@@ -92,7 +92,6 @@ header nav ul li a:hover {
 }
 
 .hero-name {
-    width: 100%;
     text-align: right;
     padding: 10px;
 }
@@ -100,15 +99,22 @@ header nav ul li a:hover {
 
 /* General purpose styles*/
 section {
-    padding: 30px
+    padding-top: 2%;
+    flex-wrap:wrap;
 }
 section h3 {
+    width: 25%;
+    display:flex;
+    justify-content: flex-end;
+    text-align: right;
     font-size: 48px;
     color: var(--primary-color);
-    text-align: right;
-    margin: 50px auto 0 100px;
-    padding: 0 40px 0 0;
-    width: fit-content;
+    padding-right: 1%;
+}
+
+.size {
+    width: 65%;
+    flex-wrap:wrap;
 }
 
 .flex-row{
@@ -123,7 +129,7 @@ section h3 {
     color: var(--tertiary-color);
     width: 90%;
     font-size: 20px;
-    padding: 0 50px;
+    padding: 0 3%;
     border-left: 6px solid var(--tertiary-color);
 }
 /* end of about me*/
@@ -138,8 +144,10 @@ section h3 {
 .example {
     flex-wrap:wrap;
     justify-content: flex-start;
-    border: 6px solid var(--tertiary-color);
-    padding: 0 0 0 2%;
+    border-left: 6px solid var(--tertiary-color);
+    padding: 0 3%;
+    flex-direction: column;
+
 }
 
 .project-title {
@@ -156,15 +164,45 @@ section h3 {
 
 article {
     display:flex;
-    flex: 1 45%;
+    width: 80%;
+    padding: 1% 0;
+    height: 10%;
 }
 article img {
     width: 50%;
     border: 6px solid var(--primary-color);
+    opacity: 0.5;
+}
+
+article img:hover {
+    opacity: 1;
 }
 /* end of work*/
 
-/* contact section*/
+/* contact section/footer */
+
+.info nav {
+    border-left: 6px solid var(--tertiary-color);
+    justify-content: space-evenly;
+}
+
+.info nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    align-items: center;
+    list-style: none;
+    width: 90%;
+}
+
+.info nav ul li a {
+    padding: 10px 30px;
+    font-size: 1.0vw;
+    border-bottom: solid 5px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--tertiary-color)
+}
 /* end of contact*/
 
 /* MEDIA QUERY for smaller desktop screens*/
