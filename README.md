@@ -15,3 +15,6 @@ a footer with contact information phone number, email, twitter, and discord
 * stylized the About me section
 * worked on styling the projects section
 * stylized the info footer section
+* finished styling the projects section
+* added media queries to properly display on multiple screen sizes
+* replaced the about me filler text with proper about me text
