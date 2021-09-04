@@ -288,6 +288,7 @@ article {
     section h3 {
         font-size: 25px;
     }
+
     .info nav ul li {
         padding: 10px;
     }
@@ -301,5 +302,9 @@ article {
 @media screen and (max-width: 575px) {
     .project-title {
         font-size: 2vw;
+    }
+
+    .info nav ul {
+        justify-content: flex-start;
     }
 }
